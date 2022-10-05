@@ -1,0 +1,32 @@
+#sr.container {
+  max-width: 1180px;
+  padding-top: 30px;
+}
+
+.search {
+  color: grey;
+
+  margin: 50px 0 30px 12px;
+}
+
+.results {
+  /* margin-left: 135px; */
+  margin-top: 20px;
+  font-family: "urwgeometric-medium", sans-serif;
+}
+
+.sinput {
+  border-style: none;
+  padding: 8px 0;
+}
+
+.sinput:focus {
+  outline: none;
+}
+
+.search button {
+  border-style: none;
+  background-color: white;
+  float: right;
+  margin-top: 5px;
+}

@@ -1,0 +1,33 @@
+.col-md-6,
+.col-md-4,
+.col-sm-6 {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.justify-content-center {
+  margin-top: 60px;
+  margin-bottom: 100px;
+}
+
+#pgNum a {
+  font-family: "urwgeometric-Semibold", sans-serif;
+  border: none;
+  color: #152D35;
+}
+
+#pgNum a:hover {
+  text-decoration: underline;
+  background-color: white;
+}
+
+#pgNum p {
+  font-family: "urwgeometric-Semibold", sans-serif;
+  border: none;
+  color: #152D35;
+}
+
+#pgNum p:hover {
+  text-decoration: underline;
+  background-color: white;
+}

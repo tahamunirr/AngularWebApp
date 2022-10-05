@@ -1,0 +1,76 @@
+<div class="Nav px-lg-5">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#"></a>
+    <img src="https://codeable.io/wp-content-new/uploads/2019/10/codeable-logo.svg" class="navImg" />
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0 me-auto mb-2 mb-lg-0">
+        <li class="nav-item active">
+          <a class="nav-link active" aria-current="page" href="#">HOW IT WORKS</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            WHO WE HELP
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Business Owners</a></li>
+            <li><a class="dropdown-item" href="#">Agencies</a></li>
+            <li><a class="dropdown-item" href="#">Freelancers</a></li>
+          </ul>
+        </li>
+        <li class="nav-item" id="dev">
+          <a class="nav-link active" aria-current="page" href="#">DEVELOPERS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">WHY</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">PRICING</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            PARTNERS
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Partner Program</a></li>
+            <li><a class="dropdown-item" href="#">Affiliate Program</a></li>
+            <li><a class="dropdown-item" href="#">Partner Directory</a></li>
+            <li><a class="dropdown-item" href="#">Affiliate Login</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <button class="btn btn-outline-success btn-lg ml-sm-5" id="btn1" type="button"
+          (click)="authservice.GoogleAuth()" *ngIf="(authservice.isLoggedIn()) === false">
+          LOGIN
+        </button>
+        <button class="btn btn-outline-success btn-lg ml-sm-5" id="btn1" type="button" (click)="authservice.SignOut()"
+          *ngIf="(authservice.isLoggedIn()) === true">
+          LOGOUT
+        </button>
+        <!-- <button class="btn btn-outline-success btn-lg" id="btn2" type="submit">
+          START A PROJECT
+        </button> -->
+        <div class="fb-share-button" data-href="https://google.com" data-layout="button" data-size="small"
+          style="display: block">
+          <a target="_blank"
+            href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse"
+            class="fb-xfbml-parse-ignore">Share</a>
+        </div>
+        <div style="padding: 5px">
+          <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button"
+            data-show-count="false">Tweet</a>
+        </div>
+      </form>
+    </div>
+  </nav>
+</div>
+<div *ngIf="(authservice.isLoggedIn()) === true">
+  HI! {{authservice.getName()}}
+</div>

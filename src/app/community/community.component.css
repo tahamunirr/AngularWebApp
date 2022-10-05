@@ -1,0 +1,28 @@
+.community {
+  background-color: #edf5f2;
+  color: black;
+  text-align: center;
+}
+
+.com1 {
+  font-weight: 500;
+  font-size: 50px;
+  padding: 105px 0px 0px 0px;
+  font-family: "Calluna-Semibold";
+  text-align: center;
+}
+
+.com2 {
+  padding: 40px 0px 130px 0px;
+  font-family: "urwgeometric-medium", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.col-md-6,
+.col-md-4,
+.col-sm-6 {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}

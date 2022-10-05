@@ -1,0 +1,113 @@
+<div class="container mb-3" id="cUser" *ngFor="let dev of developersList">
+  <div class="row">
+    <div class="col-lg-3 col-md-3 col-sm-12">
+      <img src={{dev.dp}} alt="">
+      <div class="col-lg-12 d-grid">
+        <button class="btn btn-outline-success btn-lg btn-block d-none d-md-block butn d-md-none" type="submit">VIEW
+          {{dev.nameCap}} </button>
+      </div>
+    </div>
+    <div class="col des">
+      <div class="container con">
+
+        <!-- <div class="des1">
+                    <h3>Nikola Petrov</h3>
+                    <img src="https://cdn-icons-png.flaticon.com/512/786/786331.png" alt="star">
+                    <p>4.98/5</p>
+                </div> -->
+
+        <div class="row des1">
+          <div class="col-lg-12 col1">
+            <h3>{{dev.name}}</h3>
+            <div class="star">
+              <p>{{dev.rating}}</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="des2">
+                    <p>WordPress developer on Codeable since 18 Mar, 2019</p>
+                    <img src="https://cdn-icons-png.flaticon.com/512/0/14.png" alt="dot">
+                    <p>2 years</p>
+                </div> -->
+
+        <div class="row des2">
+          <div class="col-lg-12">
+            <p>{{dev.joining}}</p>
+            <p class="dot">{{dev.time}}</p>
+          </div>
+        </div>
+
+        <!-- <div class="des3">
+                    <img src="https://cdn-icons-png.flaticon.com/512/447/447031.png" alt="pin">
+                    <p>Sofia, Bulgaria</p>
+                    <img
+                        src="https://as2.ftcdn.net/v2/jpg/01/25/64/79/500_F_125647925_sEwC9GDYtLW9BmLA5wXnG9G6iX0w0X4j.jpg">
+                    <p>Bulgarian, English</p>
+                    <img src="https://cdn-icons-png.flaticon.com/512/1442/1442912.png" alt="done">
+                    <p>182 Completed Projects</p>
+                    <img
+                        src="https://cdn-icons.flaticon.com/png/512/2976/premium/2976200.png?token=exp=1634051277~hmac=07061360cb19a9fca757d3e8cae93552">
+                    <p>41 clients</p>
+                </div> -->
+
+        <div class="row des3">
+          <div class="col-lg-3 col-md-6 de3">
+            <img src="https://cdn-icons-png.flaticon.com/512/447/447031.png" alt="pin">
+            <p>{{dev.location}}</p>
+          </div>
+          <div class="col-lg-3 col-md-6 de3">
+            <img src="https://as2.ftcdn.net/v2/jpg/01/25/64/79/500_F_125647925_sEwC9GDYtLW9BmLA5wXnG9G6iX0w0X4j.jpg"
+              alt="earth">
+            <p>{{dev.language}}</p>
+          </div>
+          <div class="col-lg-4 col-md-6 de3">
+            <img src="https://cdn-icons-png.flaticon.com/512/1442/1442912.png" alt="done">
+            <p>{{dev.projects}} Completed Projects</p>
+          </div>
+          <div class="col-lg-2 col-md-6 de3">
+            <img
+              src="https://cdn-icons.flaticon.com/png/512/2976/premium/2976200.png?token=exp=1634051277~hmac=07061360cb19a9fca757d3e8cae93552"
+              alt="suitcase">
+            <p>{{dev.clients}} clients</p>
+          </div>
+        </div>
+
+        <div class="row des4">
+          <div class="col">
+            <p>{{dev.des}}</p>
+          </div>
+        </div>
+
+        <!-- <div class="des4">
+                    <p>ACF</p>
+                    <p>BUDDYPRESS</p>
+                    <p>CONTACT FORM 7</p>
+                    <p>CSS</p>
+                    <p>CUSTOM API INTEGRATION</p>
+                    <p>CUSTOM POST TYPE</p>
+                    <p>CUSTOM THEMES</p>
+                    <p>ELEMENTOR</p>
+                    <p>FACETWP</p>
+                    <p>FORMIDABLE FORMS</p>
+                </div> -->
+
+
+        <div class="row des5">
+          <div class="col-lg-4 col-sm-6 qual" *ngFor="let items of dev.qualifications">
+            <p>{{items}}</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <button class="btn btn-outline-success btn-lg btn-block col-lg-10 d-lg-none d-sm-block" type="submit">VIEW
+              {{dev.nameCap}}</button>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>

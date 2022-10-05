@@ -1,0 +1,96 @@
+.col-md-6,
+.col-md-4,
+.col-sm-6 {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+/*                                                                             NavBar                                                                           */
+.navbar-toggler {
+  border: none;
+}
+
+.bg-light {
+  background-color: white !important;
+}
+
+.dropdown-menu {
+  border-left: solid 5px black;
+}
+
+.navbar-nav {
+  color: #212121;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 14.4px;
+  font-weight: 600;
+}
+
+#dev a {
+  color: #ffb299;
+}
+
+.navbar .nav-item:hover .nav-link {
+  color: #ffb299;
+}
+
+/* Dropdown menu background color*/
+
+.navbar-nav>li>.dropdown-menu {
+  background-color: #F6AE99;
+}
+
+/* Dropdown menu font color*/
+
+.navbar-nav>li>.dropdown-menu a {
+  color: #212121;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14.4px;
+
+}
+
+.navbar-nav>li>.dropdown-menu a:hover {
+  background-color: #F6AE99;
+  color: #212121;
+  text-decoration: underline;
+}
+
+.navbar .nav-item:hover .dropdown-menu {
+  display: block;
+}
+
+.Nav {
+  padding: 26px 0px;
+  /* position: fixed; */
+  background-color: white;
+}
+
+.navbar .nav-item .nav-link {
+  padding-left: 30px;
+}
+
+#btn1.btn {
+  margin-right: 20px;
+  color: #212121;
+  border-color: #212121;
+  font-size: 14.4px;
+  padding: 12px 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#btn1.btn:hover {
+  color: #152D35;
+  background-color: white;
+}
+
+#btn2.btn {
+  margin-right: 20px;
+  font-size: 14.4px;
+  padding: 12px 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  background-color: black;
+}
+
+#btn2.btn:hover {
+  background-color: #152D35;
+}

@@ -1,0 +1,33 @@
+.join {
+  background-color: #ffb299;
+}
+
+.join1 {
+  font-weight: 500;
+  font-size: 50px;
+  padding: 105px 0px 0px 0px;
+  font-family: "Calluna-Semibold";
+  text-align: center;
+}
+
+#butn {
+  margin: 60px 0 100px 0;
+  font-size: 14.4px;
+  padding: 12px 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 2px;
+}
+
+#btn2:hover {
+  background-color: #152D35;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}

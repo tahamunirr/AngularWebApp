@@ -1,0 +1,140 @@
+#cUser.container {
+  border: solid #A7C4BC;
+  border-radius: 4.8px;
+  border-style: solid;
+  border-width: 1.6px;
+  max-width: 1180px;
+  padding: 30px 0 30px 20px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+
+  /* margin: 15px 20px; */
+  /* margin: 5px 100px 0 130px ; */
+}
+
+#cUser.container img {
+  border-radius: 4px;
+  width: 100%
+}
+
+#cUser.container button {
+  margin-top: 22px;
+  margin-left: 2px;
+  margin-right: 0px;
+  font-size: 14.4px;
+  padding: 12px 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  background-color: black;
+}
+
+#cUser button:hover {
+  background-color: #152D35;
+}
+
+.des {
+  padding-right: 30px;
+}
+
+.des img {
+  max-width: 17px;
+}
+
+.star::before {
+  content: "\2605";
+  max-width: 2px;
+  margin-right: 0.5rem;
+  margin-left: 0.7rem;
+  color: #ffb299;
+}
+
+.star {
+  display: inline;
+}
+
+.dot::before {
+  content: "\2022";
+  margin-right: 0.5rem;
+  margin-left: 0.7rem;
+  color: #ffb299;
+}
+
+.dot {
+  max-width: 2px;
+}
+
+.des p {
+  width: auto;
+  display: inline;
+
+}
+
+.qual p {
+  background-color: #edf5f2;
+  border-radius: 4px;
+  padding: 12px;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: "urwgeometric-medium", sans-serif;
+}
+
+.des h3 {
+  width: auto;
+  display: inline;
+}
+
+.des1 {
+  margin: 10px 0;
+}
+
+.des1 h3 {
+  font-family: "Calluna-Semibold", serif;
+  font-weight: 400;
+}
+
+.des1 p {
+  font-family: "urwgeometric-Semibold", sans-serif;
+  font-size: 24px;
+  font-weight: lighter;
+}
+
+.col1 {
+  padding-left: 0;
+}
+
+.des2 {
+  font-family: "urwgeometric-Semibold", sans-serif;
+}
+
+.des3 {
+  margin: 30px 0;
+}
+
+.des3 p {
+  padding-left: 5px;
+}
+
+.de3 {
+  padding: 0;
+  margin: 10px 0;
+}
+
+.des4 {
+  font-size: 16px;
+  font-family: "urwgeometric-Semibold", sans-serif;
+
+  margin-bottom: 20px;
+}
+
+.qual {
+  margin: 10px 0;
+}
+
+.con {
+  margin-left: 0;
+}
+
+.butn {
+  border: none;
+  border-radius: 2px;
+}

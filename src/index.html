@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Project</title>
+  <base href="/" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin="" />
+  <!-- Make sure you put this AFTER Leaflet's CSS -->
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+    crossorigin=""></script>
+  <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+  <script>
+    window.googletag = window.googletag || {
+      cmd: []
+    };
+    googletag.cmd.push(function () {
+      googletag
+        .defineSlot(
+          "/6355419/Travel/Europe/France/Paris",
+          [300, 250],
+          "banner-ad"
+        )
+        .addService(googletag.pubads());
+      googletag.enableServices();
+    });
+  </script>
+</head>
+
+<body>
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous"
+    src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v12.0&appId=557872115402556&autoLogAppEvents=1"
+    nonce="HdQrfEZQ"></script>
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  <app-root></app-root>
+  <div id="banner-ad" style="width: 300px; height: 250px; display: hidden">
+    <script>
+      googletag.cmd.push(function () {
+        googletag.display("banner-ad");
+      });
+    </script>
+  </div>
+</body>
+
+</html>
